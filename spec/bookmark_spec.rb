@@ -1,12 +1,13 @@
 require 'bookmark'
 
-describe Bookmark do
+# describe Bookmark do
   describe '.all' do
     it 'returns all bookmarks' do
-      bookmarks = Bookmark.all
+      bookmarks = Bookmarks.all
 
-      expect(bookmarks).to include('http://www.facebook.com')
-      expect(bookmarks).to include('http://www.google.com')
-      expect(bookmarks).to include('http://www.youtube.com')
-  end
-end
+#       expect(bookmarks).to include('http://www.makersacademy.com')
+#       expect(bookmarks).to include('http://www.google.com')
+#       expect(bookmarks).to include('http://www.instagram.com')
+   end
+ end
+
